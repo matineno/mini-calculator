@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+:root {
+    --main-font: 'Nunito', sans-serif;
+    --primary-color: #240046;
+    --secondary-color: #023e7d;
+    --button-bg-color: #012a4a;
+    --display-bg-color: #218380;
+    --equal-button-color: #005f08;
+    --clear-button-color: #5f0000;
+    --hover-shadow-color: #00000025;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: var(--main-font);
+}
+
+body {
+    height: 100vh;
+    background: var(--primary-color);
+    display: grid;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background: var(--secondary-color);
+    padding: 10px;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.7em;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.calculator form input.NumpadBtns {
+    background: var(--button-bg-color);
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input {
+    text-align: right;
+    flex: 2;
+    font-size: 45px;
+    padding: 20px;
+    background: var(--display-bg-color);
+    box-shadow: 0 0 10px 3px #00000033;
+    height: 80px;
+    color: white;
+}
+
+form input.equal {
+    width: 145px;
+    background: var(--equal-button-color);
+}
+
+form input.ac,
+form input.del {
+    background: var(--clear-button-color);
+}
+
+.symbols {
+    background-color: #edae49;
+}
+
+.special {
+    background: #248277;
+}
+
+.calculator form input:hover {
+    box-shadow: 0 0 5px 3px var(--hover-shadow-color);
+}

@@ -6,12 +6,50 @@
       <meta name ="author" content = "Graceful legs Corporation, Online Sales Dept.">
       <meta name = "description" content = "Graceful legs Corporation">
       <meta name = "kewywords" content ="Shoes, sneakes, footwear, boots, buy, shop, nike, adidas, yeezies, sketchers">
-      <title>Graceful legs</title>
+      <title>Mini Calculator</title>
       <link rel="stylesheet" href="assets/style/index.css">
       <link rel="icon" type="image/x-icon" href="./assets/media/favicon.png">
       <script src="https://kit.fontawesome.com/f63793188b.js" crossorigin="anonymous"></script>
+      <script src="assets/script/index.js" defer></script>
   </head>
   <body>
-    
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" name="display" disabled>
+                </div>
+                <div>
+                    <input type="button" value="AC" class="ac">
+                    <input type="button" class="del" value="Del">
+                    <input type="button" class="symbols" value=".">
+                    <input type="button" class="symbols" value="/">
+                </div>
+                <div>
+                    <input type="button" class="NumpadBtns" value="7">
+                    <input type="button" class="NumpadBtns" value="8">
+                    <input type="button" class="NumpadBtns" value="9">
+                    <input type="button" class="symbols" value="*">
+                </div>
+                <div>
+                    <input type="button" class="NumpadBtns" value="4">
+                    <input type="button" class="NumpadBtns" value="5">
+                    <input type="button" class="NumpadBtns" value="6">
+                    <input type="button" class="symbols" value="-">
+                </div>
+                <div>
+                    <input type="button" class="NumpadBtns" value="1">
+                    <input type="button" class="NumpadBtns" value="2">
+                    <input type="button" class="NumpadBtns" value="3">
+                    <input type="button" class="symbols" value="+">
+                </div>
+                <div>
+                    <input type="button" class="special" value="00">
+                    <input type="button" class="special" value="0">
+                    <input type="button" value="=" class="equal">
+                </div>
+            </form>
+        </div>
+    </div>
   </body>
 </html>
