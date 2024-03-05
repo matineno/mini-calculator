@@ -74,7 +74,7 @@ form .display input {
 }
 
 form input.ac-btn,
-form input.del-btn,
+form input.plus-or-minus-btn,
 form input.percentage-btn {
     background: var(--special-button-color);
 }
