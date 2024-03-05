@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const buttons = document.querySelectorAll('input[type="button"]');
 
 // Functions that makes the operators work
-    buttons.forEach(button => {
+buttons.forEach(button => {
         button.addEventListener('click', function() {
             const value = this.value;
             if (value === 'AC') {
