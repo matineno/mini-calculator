@@ -12,7 +12,7 @@ Welcome to the iOS Theme Calculator project! This simple calculator app is desig
 
 In this tutorial, we are going to learn how to make a simple calculator with HTML, CSS and Javascript
 
-# Step 1: HTML Structure
+### Step 1: HTML Structure
 Create the basic elements for html head tag and add the following to the page body
 
 ```html
@@ -47,10 +47,10 @@ Create the basic elements for html head tag and add the following to the page bo
 
 Repeat the div for the rest button row respectively till the last row. You can view code for more info and tips.
 
-# Step 2: CSS Styling
-For the style, I made mine look like the ios calculator with the colors, buttons and borders. You can change your according to your style.
+### Step 2: CSS Styling
+For the style, I made mine look like the ios calculator with the colors, buttons and borders. You can change yours according to your style.
 
-# Step 3: JavaScript logic
+### Step 3: JavaScript logic
 JavaScript does all the calculation and listens to know the particular operation the user is performing at the particular time. I acheive that with a simple condition statement in an event listener. See code below
 
 ```JavaScript
@@ -103,9 +103,9 @@ git clone https://github.com/matineno/mini-calculator.github.io.git
 
 Click [here](https://matineno.github.io/mini-calculator.github.io/) to test your application
 
-## Screenshots
+## Screenshot
 
-(screenshot.png)
+![Main Screenshot](screenshot.png)
 
 ## Contributing
 
