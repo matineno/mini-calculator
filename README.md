@@ -50,6 +50,34 @@ Repeat the div for the rest button row respectively till the last row. You can v
 ### Step 2: CSS Styling
 For the style, I made mine look like the ios calculator with the colors, buttons and borders. You can change yours according to your style.
 
+```CSS
+// basic styles
+.calculator {
+    background: var(--secondary-color);
+    padding: 10px;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+}
+
+.calculator form input.numpad-btns {
+    background: var(--button-bg-color);
+}
+
+form .display input {
+    text-align: right;
+    flex: 2;
+    font-size: 45px;
+    background: var(--display-bg-color);
+    height: 80px;
+    color: white;
+}
+
+form input.ac-btn, form input.plus-or-minus-btn, form input.percentage-btn {
+    background: var(--special-button-color);
+}
+```
+I highlighed the basic styles used. Change your according to your preference.
+
 ### Step 3: JavaScript logic
 JavaScript does all the calculation and listens to know the particular operation the user is performing at the particular time. I acheive that with a simple condition statement in an event listener. See code below;
 
