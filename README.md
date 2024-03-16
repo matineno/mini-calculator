@@ -201,7 +201,7 @@ git clone https://github.com/matineno/mini-calculator.github.io.git
 
 ## Demo
 
-Click [here](https://matineno.github.io/mini-calculator.github.io/) to test your application
+[Click here](https://matineno.github.io/mini-calculator/) to test your application
 
 ## Screenshot
 
